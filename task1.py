@@ -9,5 +9,5 @@ for i in range(number):
         marks_float.append(float(mark))
     names[name] = marks_float
 selected_name = input()
-average_mark = sum(names[selected_name])/len(names[selected_name])
+average_mark = sum(names[selected_name]) / len(names[selected_name])
 print("{:.2f}".format(average_mark))
