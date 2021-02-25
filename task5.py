@@ -1,5 +1,4 @@
-input_string = input()
-movement = input_string[1:3]
+movement = input()
 x = 0
 y = 0
 for move in movement:

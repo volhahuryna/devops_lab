@@ -6,8 +6,8 @@ fin_dict = {}
 iteration_number = 0
 for keys in keys_list:
     if iteration_number < len(values_list):
-        fin_dict[keys] = values_list[iteration_number]
+        fin_dict[int(keys)] = int(values_list[iteration_number])
     else:
-        fin_dict[keys] = None
+        fin_dict[int(keys)] = None
     iteration_number += 1
 print(fin_dict)
